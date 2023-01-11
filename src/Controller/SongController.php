@@ -3,13 +3,13 @@
 namespace App\Controller;
 
 use Psr\Log\LoggerInterface;
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class SongController extends AbstractController
 {
-    #[Route('api/songs/{id<\d+>}', methods: ['GET'])]
+    #[Route('api/songs/{id<\d+>}', name: 'api_song_show', methods: ['GET'])]
     public function getSong(int $id, LoggerInterface $log): Response
     {
         $song = [

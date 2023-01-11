@@ -1,3 +1,7 @@
+@import '~bootstrap';
+@import '~@fontsource/roboto-condensed';
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
 body {
     background-color: #17242C;
     color: #fff;
@@ -26,5 +30,4 @@ body {
     background: rgb(23,36,44);
     background: linear-gradient(180deg, rgba(23,36,44,1) 1%, rgba(34,47,54,1) 97%);
     border-radius: 5px;
-
 }
