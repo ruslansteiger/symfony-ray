@@ -1,8 +1,10 @@
 {
   "preset": "symfony",
   "rules": {
+    "blank_line_between_import_groups": false,
     "ordered_imports": {
-      "sort_algorithm": "length"
+      "sort_algorithm": "length",
+      "imports_order": ["const", "class", "function"]
     }
   },
   "exclude": ["var"]
