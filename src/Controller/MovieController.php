@@ -23,8 +23,8 @@ class MovieController extends AbstractController
             throw $this->createNotFoundException("No movie found for id {$id}");
         }
 
-        dd($movie);
+        ray($movie);
 
-        return new JsonResponse($movie);
+        return new JsonResponse(['ray is ❤️']);
     }
 }
