@@ -1,6 +1,6 @@
 ## Ray Demo
 
-Demo application for demoing ray at the Symfony User Group Basel.
+Demo application for showing ray at the Symfony User Group Basel.
 https://www.meetup.com/sfubsl/events/289543933/
 
 🗓️ 19. January 2023
