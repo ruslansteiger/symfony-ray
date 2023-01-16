@@ -29,3 +29,11 @@ https://symfony-ray.test/_profiler
 6. Twig
 7. Movie Entity
 8. SSH Feature
+
+### 20% Discount Code
+
+The discount code expires at the end of January 2023.
+
+```
+RAY-PHP-SYMFONY-USER-GROUP-BASEL
+```
