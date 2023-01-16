@@ -15,7 +15,8 @@ class InfoCommand extends Command
         ray()->newScreen('Info demo');
 
         ray()->phpinfo();
-        ray()->phpinfo('xdebug.enabled');
+
+//        ray()->phpinfo('xdebug.enabled');
 
         return Command::SUCCESS;
     }

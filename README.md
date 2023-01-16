@@ -32,8 +32,7 @@ https://myray.app
 4. PauseCommand
 5. MeasureCommand
 6. Twig
-7. Movie Entity
-8. SSH Feature
+7. SSH Feature
 
 ### 20% Discount Code
 

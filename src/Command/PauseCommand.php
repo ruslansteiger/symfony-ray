@@ -14,11 +14,11 @@ class PauseCommand extends Command
     {
         ray()->newScreen('Pause demo');
 
-        ray('Pausing...');
+        ray('Vor der Pause ...');
 
         ray()->pause();
 
-        ray('after the pause');
+        ray('nach der Pause.');
 
         return Command::SUCCESS;
     }
