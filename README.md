@@ -17,6 +17,11 @@ composer require spatie/ray
 https://symfony-ray.test/_profiler
 ```
 
+### Homepage
+```
+https://myray.app
+```
+
 ### Presentation flow
 
 - Host a demo application to show the SSH feature.
